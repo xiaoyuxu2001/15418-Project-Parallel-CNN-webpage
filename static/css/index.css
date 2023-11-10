@@ -165,9 +165,9 @@ body {
     opacity: 0.3; /* This sets the opacity to 50% */
     z-index: -1;
   }
-  
+
   #background-section h2 {
-    color: white;
+    color: white !important;
   }
   
 
