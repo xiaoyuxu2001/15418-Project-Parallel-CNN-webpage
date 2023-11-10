@@ -154,9 +154,9 @@ body {
   }
 
 #background-section {
-    background-image: url('./static/images/background_section.png');
+    background-image: url('../images/background_section.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-  }
+}
   
