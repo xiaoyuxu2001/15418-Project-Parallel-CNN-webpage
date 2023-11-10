@@ -153,10 +153,9 @@ body {
     border-radius: 5px;
   }
 
-#background-section {
-    background-image: url('../images/background_section.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  #background-section {
+    background-image: url('../images/background_section.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
 }
-  
