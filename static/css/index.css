@@ -158,4 +158,5 @@ body {
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
+    filter: brightness(50%);
 }
