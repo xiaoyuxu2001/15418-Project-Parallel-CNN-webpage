@@ -166,17 +166,13 @@ body {
     z-index: -1;
   }
 
-  #background-section p,
-  #background-section h2 {
-    color: white !important;
-  }
-  
 
   #background-section {
     background-image: url('../images/background_section.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
+    color: white !important;
 }
 
   
