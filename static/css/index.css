@@ -162,11 +162,22 @@ body {
     width: 100%;
     height: 100%;
     background: inherit;
-    opacity: 0.3; /* This sets the opacity to 50% */
+    opacity: 0.3;
     z-index: -1;
   }
 
-
+  #background-section,
+  #background-section h1,
+  #background-section h2,
+  #background-section h3,
+  #background-section h4,
+  #background-section h5,
+  #background-section h6,
+  #background-section p,
+  #background-section a {
+      color: white !important;
+  }
+  
   #background-section {
     background-image: url('../images/background_section.png') !important;
     background-size: cover !important;
