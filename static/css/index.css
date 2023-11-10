@@ -153,10 +153,25 @@ body {
     border-radius: 5px;
   }
 
+  #background-section::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    opacity: 0.3; /* This sets the opacity to 50% */
+    z-index: -1;
+  }
+
   #background-section {
     background-image: url('../images/background_section.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
-    color: white
 }
+
+  
+  
