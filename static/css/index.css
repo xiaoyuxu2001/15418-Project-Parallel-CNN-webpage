@@ -152,3 +152,11 @@ body {
   #interpolation-image-wrapper img {
     border-radius: 5px;
   }
+
+#background-section {
+    background-image: url('./static/images/background_section.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
