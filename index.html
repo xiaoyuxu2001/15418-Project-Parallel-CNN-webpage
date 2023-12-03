@@ -56,7 +56,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="https://docs.google.com/document/d/1pi2YeB6IkAG05BAPqtMgJqTtS88wdQKDPFw-zw42rtg/edit"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -67,7 +67,7 @@
 
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href="https://github.com/xiaoyuxu2001/Parallel_CNN"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -77,7 +77,7 @@
               </span>
               <!-- Dataset Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                <a href="https://www.kaggle.com/datasets/oddrationale/mnist-in-csv"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
@@ -117,7 +117,9 @@
             <h2 class="title is-3" style="color: white;">BACKGROUND</h2>
             <div class="content has-text-justified">
             <p>
-                Abaaba
+              Training a Convolutional Neural Network (CNN) is a task that requires significant computational resources. Parallelizing this process has become essential to ensure that the training can be finished within a reasonable timeframe.
+              In this project, we	implemented an advanced parallelized CNN for image classification by integrating both data parallelism and model parallelism strategy. The parallelization is also planned to ensure optimal workload distribution and minimal communication overhead.  
+              We apply data parallelism on convolutional layers, and model parallelims on fully connected layers.
             </p>
     
             </div>
@@ -162,12 +164,17 @@
             <h2 class="title is-3">SCHEDULE</h2>
             <div class="content has-text-justified">
             <p>
-                Week 1 (Nov16 - Nov12): Finalize project proposal, build webpage, read papers.
+                Week 1 (Nov.6 - Nov.12): Finalize project proposal, build webpage, read papers.
             </p>
             <p>
-                Week 2 (Nov13 - Nov19): 
+                Week 2 (Nov.13 - Nov.19): Tried to implement parallelized RNN (DRAW: a Recurrent Nerual Network For Image Generation), but found it to have very strong time dependency.
             </p>
-    
+            </p>
+                Week3 (Nov.20 - Nov.26): Switched to parallel CNN. Implemented sequential version.
+            </p>            
+            </p>
+                Week4 (Nov.27 - Dec.2): Implemented ring reduce and data parallel.
+           </p>
             </div>
         </div>
         </div>
@@ -184,16 +191,13 @@
                   These are the papers that we refered to: 
                 </p>
                 <p>
-                  <a href="https://arxiv.org/abs/2104.09125">Paper 1</a>: Introduction 1.
+                  <a href="https://arxiv.org/pdf/1404.5997.pdf">Paper 1</a>: Introduction 1.
                 </p>
                 <p>
-                  <a href="https://arxiv.org/abs/2104.09125">Paper 2</a> : Introduction 2.
+                  These are the code that we used as part of our starter code: 
                 </p>
                 <p>
-                  These are the code that we used as starter code: 
-                </p>
-                <p>
-                  <a href="https://arxiv.org/abs/2104.09125">Git repo 1</a>: Git repo 1.
+                  <a href="https://github.com/vzhou842/cnn-from-scratch">Git repo 1</a>: Git repo 1.
                 </p>
               </div>
         </div>
