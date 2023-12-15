@@ -95,20 +95,6 @@
 
 
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">SUMMARY</h2>
-        <div class="content has-text-justified">
-          <p>
-            Abaaba
-          </p>
-
-        </div>
-      </div>
-    </div>
-</section>
 
 <section class="section" id="background-section">
     <div class="container is-max-desktop">
@@ -117,9 +103,10 @@
             <h2 class="title is-3" style="color: white;">BACKGROUND</h2>
             <div class="content has-text-justified">
             <p>
-              Training a Convolutional Neural Network (CNN) is a task that requires significant computational resources. Parallelizing this process has become essential to ensure that the training can be finished within a reasonable timeframe.
-              In this project, we	implemented an advanced parallelized CNN for image classification by integrating both data parallelism and model parallelism strategy. The parallelization is also planned to ensure optimal workload distribution and minimal communication overhead.  
-              We apply data parallelism on convolutional layers, and model parallelims on fully connected layers.
+              Neural networks often require a substantial amount of computational power for training, making it necessary to employ strategies for parallel computation.
+              The two primary ways of parallelizing computation: model and data parallelism. In data parallelism involves partitioning the dataset into smaller batches for processing, while for model parallelism, the architecture of the neural network is divided into several subgraphs.
+              Efficient communication across different computing nodes is cruciawwl for the effective execution of parallel deep learning.
+              In this project, we implemented sequential and parallel versions of CNN from scratch using numpy and mpi4py.
             </p>
     
             </div>
@@ -134,7 +121,7 @@
             <h2 class="title is-3">CHALLENGES</h2>
             <div class="content has-text-justified">
             <p>
-                Abaaba
+                
             </p>
     
             </div>
@@ -149,7 +136,11 @@
             <h2 class="title is-3">GOALS AND DELIVERABLES</h2>
             <div class="content has-text-justified">
             <p>
-                Abaaba
+              We have developed both sequential and parallelized versions of Convolutional Neural Network (CNN) for image classification .
+              We constructed the sequential version of the CNN utilizing only numpy to establish a baseline.
+              Our approach strategically applies data parallelism to the convolutional layers and tensor model parallelism to the fully connected layers using MPI.
+              We implemented matrix multiplication using PyCUDA on a GPU.
+              We achieve a 541.87x speedup when running parallelized model on GHC machine with nproc = 8 against the purely sequential one.
             </p>
     
             </div>
@@ -175,6 +166,12 @@
             </p>
                 Week4 (Nov.27 - Dec.2): Implemented ring reduce and data parallel.
            </p>
+            </p>
+            Week5 (Nov.2 - Dec.8): Implemented model parallel.
+            </p>
+          </p>
+            Week6 (Nov.9 - Dec.15): Integrate pieces together, doing optimizations, poster and report writeup.
+          </p>
             </div>
         </div>
         </div>
